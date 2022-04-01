@@ -9,6 +9,8 @@ monsters_sheet = monsters_xls.sheet_by_index(0)
 monsters_list = []
 tag_list      = []
 
+
+# 此处序号对应xlsx中，怪兽信息所在行数-2
 # 手动填写序号，跳过必定不作为中转的怪兽
 transit_skip_list = [9, 10] 
 # 手动填写序号，跳过必定不作为终端的怪兽
